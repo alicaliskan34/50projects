@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.wallpapersafari.com/28/59/uOmk8N.jpg");
+    background-size: cover;
+    
+   
+}
+
+.text{
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+    filter: blur(px);
+}

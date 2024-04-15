@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html,body{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 900px;
+}
+
+
+.card{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 90%;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.active{
+    width: 700px;
+}
+
+h3{
+    color: aqua;
+    position: absolute;
+    bottom: 2rem;
+    opacity: 0;
+    transition: all 1.3s ease;
+}
+
+
+.card.active h3{
+    opacity: 1;
+}

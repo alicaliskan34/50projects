@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html,
+body {
+
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    display: flex;
+
+}
+
+.ps {
+    width: 50%;
+    height: 100%;
+    background-image: url("https://wallpapers.com/images/hd/playstation-ps5-console-nsndc8ewygduy1nh.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+
+.xbox {
+    width: 50%;
+    height: 100%;
+    background-image: url("https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/03/XboxSeriesXTech_Inline1.jpg?fit=940%2C528");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+
+.blur {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    opacity: 0.5;
+    display: flex;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    color: white;
+}
+
+.blur.black{
+    background-color: #313030;
+}
+
+
+.active{
+    width: 90%;
+    transition: all 1s ease;
+}

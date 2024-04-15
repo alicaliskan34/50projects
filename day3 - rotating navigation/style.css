@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html,
+body {
+    background-color: #2D2D2D;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu{
+    width: 200px;
+    height: 200px;
+    background-color: #FF7D6D;
+    position: relative;
+    border-radius: 100%;
+    position: fixed;
+    top: -100px;
+    left: -100px; 
+    transition: all 1s ease;
+}
+
+.show{
+    transform: rotate(-20deg);
+}
+
+.menushow{
+    transform: rotate(-70deg);
+}
+
+#button{
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: #FF7D6D;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    
+    
+}
+
+.openMenu{
+    position: absolute;
+    top: 60%;
+    left: 60%
+    
+}
+
+.closeMenu{
+    position: absolute;
+   top: 60%;
+   left: 20%;
+}
+
+
+.container{
+    width: 100%;
+    background-color: #FAFAFA;
+    transform-origin: top left;
+    min-height: 100%;
+    transition: all 1s ease;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+img{
+    margin-top: 4rem;
+    width: 800px;
+}
+
+
+.yanMenu{
+position: absolute;
+left: -200px;
+bottom: 40px;
+display: flex;
+flex-direction: column;
+transition: all 1s ease;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.yanMenu .links +.links {
+    padding-left: 1rem;
+}
+
+.yanMenu .links +.links +.links {
+    padding-left: 2rem;
+}
+
+.yanMenuShow{
+    left: 10px;
+}
